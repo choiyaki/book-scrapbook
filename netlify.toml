@@ -4,22 +4,22 @@ publish = "public"
 
 [build.environment]
 # (Optional) Text in landing page button
-LANDING_BUTTON = "Click to steal some👆"
+LANDING_BUTTON = "📕️Map of Contents"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "I have nothing but intelligence."
+LANDING_DESCRIPTION = "ここには何を書こうかな？"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "home"
+LANDING_PAGE = "_📕map%20of%20contents"
 # (Optional) Site title on landing page
-LANDING_TITLE = "I love obsidian-zola! 💖"
+LANDING_TITLE = ""
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/ppeetteerrs/obsidian-zola"
 # (Optional) Site title in navbar
-SITE_TITLE = "Someone's Second 🧠"
+SITE_TITLE = "🧠思考の足場"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = ""
 # (REQUIRED) Netlify site URL
-SITE_URL = ""
+SITE_URL = "https://thst.choiyaki.com"
 # (Optional) Site Timezone
 TIMEZONE = "Asia/Hong_Kong"
 ZOLA_VERSION = "0.15.2"
@@ -28,11 +28,12 @@ SORT_BY = "title"
 # (Optional) Google Analytics Measurement ID
 GANALYTICS = ""
 # (Optional, default true) Slugify URLs. Put "" to disable.
-SLUGIFY = "y"
+SLUGIFY = ""
 # (Optional, default true) Shows knowledge graph on home page. Put "" to disable.
 HOME_GRAPH = "y"
 # (Optional, default true) Shows knowledge graph on every page. Put "" to disable.
 PAGE_GRAPH = "y"
+LOCAL_GRAPH = "y"
 # (Optional, default false) Whether sidebar sections should be collapsed by default.
 SIDEBAR_COLLAPSED = ""
 # (Optional, default blank) Additional footer content.
