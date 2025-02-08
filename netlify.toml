@@ -6,7 +6,7 @@ publish = "public"
 # (Optional) Text in landing page button
 LANDING_BUTTON = "📖Read List"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "bookのscrapbook"
+LANDING_DESCRIPTION = "📚本のscrapbook📖"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "_📖read%20list"
 # (Optional) Site title on landing page
